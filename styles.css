@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    background-image:url(https://ireland.apollo.olxcdn.com/v1/files/5s6pb51vxpju1-PL/image;s=1000x700);
+    background-size: cover;
+    background-position: center;
+}
+
+.heading{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 0px; bottom: 0px; right: 0px; left: 0px;
+    margin-bottom: 0px;
+}
+.title{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+
+}
+
+
+.subtitle{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.register{
+    width: 180px;
+    height: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px auto;
+    display: block;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+
+    transition: background-color: 1000ms; color 1000ms;
+}
+
+.register:hover{
+    background-color: hotpink;
+    color: #222222;
+
+    transition: background-color: 1000ms; color 1000ms;
+}
